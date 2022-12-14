@@ -1,4 +1,4 @@
-package com.badgeexample.newarchitecture.components;
+package com.grapecity.leyser.badgeexample.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

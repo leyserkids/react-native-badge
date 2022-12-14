@@ -1,4 +1,4 @@
-package com.badgeexample.newarchitecture.modules;
+package com.grapecity.leyser.badgeexample.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

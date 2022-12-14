@@ -1,4 +1,4 @@
-package com.badgeexample.newarchitecture;
+package com.grapecity.leyser.badgeexample.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.badgeexample.BuildConfig;
-import com.badgeexample.newarchitecture.components.MainComponentsRegistry;
-import com.badgeexample.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.grapecity.leyser.badgeexample.BuildConfig;
+import com.grapecity.leyser.badgeexample.newarchitecture.components.MainComponentsRegistry;
+import com.grapecity.leyser.badgeexample.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

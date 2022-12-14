@@ -1,4 +1,4 @@
-package com.badge;
+package com.grapecity.leyser.badge;
 
 import androidx.annotation.Nullable;
 

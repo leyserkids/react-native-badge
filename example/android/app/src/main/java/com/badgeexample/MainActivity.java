@@ -1,4 +1,4 @@
-package com.badgeexample;
+package com.grapecity.leyser.badgeexample;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

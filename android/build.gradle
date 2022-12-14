@@ -76,12 +76,13 @@ dependencies {
   // For > 0.71, this will be replaced by `com.facebook.react:react-android:$version` by react gradle plugin
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native"
+  implementation 'me.leolin:ShortcutBadger:1.1.22@aar'
 }
 
 if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
     libraryName = "Badge"
-    codegenJavaPackageName = "com.badge"
+    codegenJavaPackageName = "com.grapecity.leyser.badge"
   }
 }
