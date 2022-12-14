@@ -11,11 +11,18 @@ npm install react-native-badge
 ## Usage
 
 ```js
-import { multiply } from 'react-native-badge';
+import {
+  getBadgeCount,
+  setBadgeCount,
+  isBadgeSupported,
+} from 'react-native-badge';
 
 // ...
 
-const result = await multiply(3, 7);
+if (isBadgeSupported()) {
+    const cnt = await getBadgeCount();
+    await setBadgeCount(cnt + 1);
+}
 ```
 
 ## Contributing
