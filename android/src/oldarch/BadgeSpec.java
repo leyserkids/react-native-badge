@@ -9,5 +9,7 @@ abstract class BadgeSpec extends ReactContextBaseJavaModule {
     super(context);
   }
 
-  public abstract void multiply(double a, double b, Promise promise);
+  public abstract void isBadgeSupported(Promise promise);
+  public abstract void getBadgeCount(Promise promise);
+  public abstract void setBadgeCount(int badgeCount, Promise promise);
 }

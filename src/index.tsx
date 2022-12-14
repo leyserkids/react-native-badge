@@ -24,6 +24,14 @@ const Badge = BadgeModule
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return Badge.multiply(a, b);
+export function isBadgeSupported(): Promise<boolean> {
+  return Badge.isBadgeSupported();
+}
+
+export function getBadgeCount(): Promise<number> {
+  return Badge.getBadgeCount();
+}
+
+export function setBadgeCount(badgeCount: number): Promise<boolean> {
+  return Badge.setBadgeCount(badgeCount);
 }
