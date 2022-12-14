@@ -1,0 +1,1 @@
+{"version":3,"file":"NativeBadge.d.ts","sourceRoot":"","sources":["../../src/NativeBadge.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,cAAc,CAAC;AAGhD,MAAM,WAAW,IAAK,SAAQ,WAAW;IACvC,gBAAgB,IAAI,OAAO,CAAC,OAAO,CAAC,CAAC;IACrC,aAAa,IAAI,OAAO,CAAC,MAAM,CAAC,CAAC;IACjC,aAAa,CAAC,UAAU,EAAE,MAAM,GAAG,OAAO,CAAC,OAAO,CAAC,CAAC;CACrD;;AAED,wBAA+D"}
